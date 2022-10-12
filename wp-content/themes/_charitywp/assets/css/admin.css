@@ -1,0 +1,88 @@
+/********** ADMIN METABOX START **********/
+.wpb_el_type_checkbox.vc_wrapper-param-type-checkbox .edit_form_line>label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.format-setting.type-taxonomy-checkbox.type-checkbox .format-setting-inner {
+	max-height: 173px;
+	border: 1px solid #e5e5e5;
+	padding: 10px 10px 0px;
+	overflow-y: auto;
+	max-width: calc(63% - 20px);
+}
+
+.format-setting-inner input.ot-taxonomy-search {
+	width: calc(100% - 50px) !important;
+	margin: 0px 10px 15px 0px !important;
+}
+
+body .format-setting-inner a.ot-taxonomy-search-clear {
+	margin: 0px 0px 15px !important;
+	display: block;
+	padding: 2px !important;
+	text-align: center;
+}
+
+.format-setting.type-custom-post-type-checkbox.type-checkbox .format-setting-inner {
+	max-height: 173px;
+	border: 1px solid #e5e5e5;
+	padding: 10px 10px 0px;
+	overflow-y: auto;
+	max-width: calc(63% - 20px);
+}
+
+.format-setting-inner input.ot-custom-post-type-search {
+	width: calc(100% - 50px) !important;
+	margin: 0px 10px 15px 0px !important;
+}
+
+body .format-setting-inner a.ot-custom-post-type-search-clear {
+	margin: 0px 0px 15px !important;
+	display: block;
+	padding: 2px !important;
+	text-align: center;
+}
+
+#organizerdiv.postbox,
+#locationdiv.postbox {
+	display:none;
+}
+/********** ADMIN METABOX END **********/
+
+/********** ADMIN OTHER STYLES START **********/
+#cpto #cpt_info_box {
+	display:none !important; /* Re-order page ads remove */
+}
+
+.gloria-custom-admin-row #icl_tax_category_lang h3.hndle {
+	font-size: 14px;
+	padding: 8px 12px;
+	margin: 0;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+.gloria-custom-admin-row #icl_tax_category_lang .inside select {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.gloria-custom-admin-row #icl_tax_category_lang .inside #icl_translate_options br {
+	display: none;
+}
+
+.gloria-custom-admin-row #icl_tax_category_lang .inside #icl_translate_options table tr td {
+	border-bottom: 1px solid #eee;
+	padding: 7px 0px;
+}
+
+.gloria-custom-admin-row #icl_tax_category_lang .inside #icl_translate_options table tr:last-child td {
+	border-bottom: 0px;
+}
+
+.vc_element-icon, .vc_general.vc_element-icon,
+.wpb_content_element>.wpb_element_wrapper>.wpb_element_title .vc_element-icon {
+	border-radius: 4px;
+}
+/********** ADMIN OTHER STYLES END **********/
